@@ -17,4 +17,4 @@ def square_array(array)
     
   end 
 end 
-binding.pryexi
+binding.pry
