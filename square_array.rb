@@ -1,3 +1,4 @@
+=begin
 def square_array(array)
   new_array = []
   array.each do |item|
@@ -5,4 +6,11 @@ def square_array(array)
   end
   new_array
 end
+=end
 
+
+def square_array(array)
+  array.collect do |i|
+    i * i
+  end 
+end 
