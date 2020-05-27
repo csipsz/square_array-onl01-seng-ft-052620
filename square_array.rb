@@ -6,9 +6,10 @@ def square_array(array)
   new_array
 end
 
-
+=begin
 def square_array(array)
   array.collect do |i|
     i * i
   end 
 end 
+=end
